@@ -1,3 +1,51 @@
 body {
     font-size: large;
+    /* newsreader */
+}
+
+
+h1 {
+    /* newsreader? */
+    text-align: center;
+}
+
+.container {
+    background-color: blue;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.bio {
+    background-color: red;
+
+    width: 33vw;
+
+}
+.articles {
+    background-color: yellow;
+    width: 66vw;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    background-color: yellowgreen;
+}
+
+
+.imgtitle {
+    background-image: url(sinking!.png);
+    /* height: fit-content; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 56.25vh;
+    width: 90vw;
+    justify-self: center;
+}
+
+.financeimg {
+    width: 100vw;
+    padding: 2vw;
 }
