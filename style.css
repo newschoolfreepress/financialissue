@@ -6,25 +6,40 @@
         margin: 0;
     }
     h1 {
-        /* newsreader? */
+        font-family: Arial;
+        font-weight: 400;
+        font-size: 2.5vw;
+    }
+    h2 {
+        font-family: Arial;
+        font-weight: 400;
+        font-size: 1.95vw;
         text-align: center;
     }
+    p { 
+        font-family: Arial;
+        font-weight: 400;
+        line-height: 130%;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+      }
 
 /* divs */  
     .container {
-        background-color: blue;
-        
+        outline: 1px solid black;
         display: flex;
         flex-direction: row;
     }
     .bio {
-        background-color: red;
+        padding-top: 5vh;
         width: 30vw;
-        padding-right: 2vh;
-        padding-left: 2vh;
+        padding-right: 3vh;
+        padding-left: 3vh;
+        outline: 1px solid black;
     }
     .articles {
-        background-color: yellow;
         width: 70vw;
         display: flex;
         flex-direction: column;
@@ -40,19 +55,51 @@
     }
 
 /* idk */  
-    .content {
-        background-color: yellowgreen;
-    }
+
     .financeimg {
         width: 100vw;
         height: auto;
-
     }
 
 /* articles */ 
+    .buttons{
+        width: 50vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .button {
+        background-color: #79CFF8; 
+        border: none;
+        text-align: center;
+        font-size: 1.5vw;
+        padding-top: .5vh;
+        padding-bottom: .5vh;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        margin-bottom: 2vh;
+        border-radius: 25px;
+    }
+    .button:hover {
+        background-color: #419EC6;
+    }
     .writing {
         width: 60vw;
         height: 20vh;
         background-color: white;
-        margin-top: 2vh;
+        margin-bottom: 2vh;
+        outline: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .img {
+        width: 20vw;
+        height: 20vh;
+        display: flex;
+        margin-right: 2vw;
+    }
+    .articleimg{
+        width: auto;
+        height: 20vh;
+        outline: 1px solid black;
     }
