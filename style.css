@@ -100,6 +100,8 @@
     }
     .articleimg{
         width: auto;
+        /* width: auto; */
         height: 20vh;
+        /* height: 100%; */
         outline: 1px solid black;
     }
