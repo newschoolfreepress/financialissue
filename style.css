@@ -13,14 +13,14 @@
     h2 {
         font-family: Arial;
         font-weight: 400;
-        font-size: 3vw;
+        font-size: 2vw;
         text-align: center;
     }
     p { 
         font-family: Arial;
         font-weight: 400;
         line-height: 130%;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     a {
         text-decoration: none;
@@ -72,7 +72,7 @@
         background-color: #79CFF8; 
         border: none;
         text-align: center;
-        font-size: 2.5vw;
+        font-size: 2vw;
         padding-top: .5vh;
         padding-bottom: .5vh;
         padding-right: 1vw;
@@ -85,7 +85,7 @@
     }
     .writing {
         width: 60vw;
-        height: 20vh;
+        height: 15vh;
         background-color: white;
         margin-bottom: 2vh;
         outline: 1px solid black;
@@ -107,7 +107,7 @@
 
         display: flex;
         width: 20vw;
-        height: 20vh;
+        height: 15vh;
         outline: 1px solid black;
         background-size: cover;
         margin-right: 2vw;
@@ -127,7 +127,7 @@
         flex-direction: column;
         height: fit-content;
         width: 38vw;
-        height: 20vh;
+        height: 15vh;
         flex-wrap: wrap;
         padding-bottom: 2vh;
 
