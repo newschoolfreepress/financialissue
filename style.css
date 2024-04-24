@@ -130,6 +130,7 @@
         height: 15vh;
         flex-wrap: wrap;
         padding-bottom: 2vh;
+        justify-content: center;
 
     }
     .credits{
