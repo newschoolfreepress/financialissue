@@ -97,12 +97,14 @@
         width: 20vw;
         height: 20vh;
         margin-right: 2vw;
+        align-items: center;
+        justify-content: center;
     }
     .articleimg{
         display: flex;
-        width: auto;
+        width: 20vw;
         /* width: auto; */
-        height: 20vh;
+        height: auto;
         /* height: 100%; */
         outline: 1px solid black;
     }
