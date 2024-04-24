@@ -37,7 +37,7 @@ $(document).ready(function() {
                             <img class="articleimg" src="${content[x].src}" alt="${content[x].alt}">
                         </div>
                         <div class="byline">
-                            <p>${content[x].title}</p><p>${content[x].by}</p> <br><p>${content[x].section}</p>
+                            <p>${content[x].title}<br>${content[x].by}</p> 
                         </div>
                     </div>
                 </a>`;

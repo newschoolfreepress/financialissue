@@ -93,15 +93,33 @@
         align-items: center;
     }
     .img {
+        display: flex;
         width: 20vw;
         height: 20vh;
-        display: flex;
         margin-right: 2vw;
     }
     .articleimg{
+        display: flex;
         width: auto;
         /* width: auto; */
         height: 20vh;
         /* height: 100%; */
         outline: 1px solid black;
+    }
+    .byline{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 38vw;
+        height: 20vh;
+        flex-wrap: wrap;
+
+    }
+    .credits{
+        display: flex;
+        flex-direction: column;
+        outline: .5px solid black;
+        width: 100vw;
+        height: 10vh;
+        padding-left: 2vh;
     }
