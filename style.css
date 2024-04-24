@@ -13,13 +13,14 @@
     h2 {
         font-family: Arial;
         font-weight: 400;
-        font-size: 1.95vw;
+        font-size: 3.5vmax;
         text-align: center;
     }
     p { 
         font-family: Arial;
         font-weight: 400;
         line-height: 130%;
+        font-size: 3vmin;
     }
     a {
         text-decoration: none;
@@ -33,7 +34,7 @@
         flex-direction: row;
     }
     .bio {
-        padding-top: 5vh;
+        padding-top: 2vh;
         width: 30vw;
         padding-right: 3vh;
         padding-left: 3vh;
@@ -63,7 +64,7 @@
 
 /* articles */ 
     .buttons{
-        width: 50vw;
+        width: 65vw;
         display: flex;
         justify-content: space-evenly;
     }
@@ -71,7 +72,7 @@
         background-color: #79CFF8; 
         border: none;
         text-align: center;
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         padding-top: .5vh;
         padding-bottom: .5vh;
         padding-right: 1vw;
@@ -93,19 +94,32 @@
         align-items: center;
     }
     .img {
-        display: flex;
+        /* display: flex;
         width: 20vw;
         height: 20vh;
         margin-right: 2vw;
         align-items: center;
         justify-content: center;
+
+        background-image: url(sinking!.png);
+        background-size: cover;
+        outline: 1px solid black; */
+
+        display: flex;
+        width: 20vw;
+        height: 20vh;
+        outline: 1px solid black;
+        background-size: cover;
+        margin-right: 2vw;
+
     }
     .articleimg{
         display: flex;
-        width: 20vw;
+        /* width: 20vw; */
         /* width: auto; */
-        height: auto;
+        /* height: auto; */
         /* height: 100%; */
+        height: 20vh;
         outline: 1px solid black;
     }
     .byline{
@@ -115,6 +129,7 @@
         width: 38vw;
         height: 20vh;
         flex-wrap: wrap;
+        padding-bottom: 2vh;
 
     }
     .credits{
