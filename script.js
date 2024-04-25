@@ -58,7 +58,7 @@ $(document).ready(function() {
         var newhtml = "";
         for (var x = 0; x < content.length && x < 7; x++) {
             newhtml += `
-                <a href="${content[x].href}">
+                <a href="${content[x].href}" target="parent">
                     <div class="writing">
                         <div class="img" style="background-image: url(${content[x].src});"> </div>
                         <div class="byline">
