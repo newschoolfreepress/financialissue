@@ -5,6 +5,14 @@ $(document).ready(function() {
         displayContent(data, $(".related"));
     });
 
+    function addTargetParent() {
+        var links = document.querySelectorAll('a'); // Select all links on the page
+        
+        links.forEach(function(link) {
+          link.setAttribute('target', '_parent'); // Set the target attribute to '_parent'
+        });
+      }
+
     // Button click event handlers
     $("#Nbutton").click(function() {
         filterAndDisplayContent("N", $(".related"));
